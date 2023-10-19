@@ -4,20 +4,21 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 
-int inc(int counter);
-int main(int argc, char *argv[]) {
+voidf(void);
+int i;
 	
-	int i=10;
-	printf("i before function call = %d\n", i);
-	inc(i);
-	printf("i after function call = %d\n", i);
-
+int main(int argc, char *argv[]) {
+		
+	for (i=0;i<5;i++);
+	{
+		f();
+	}
+	
 	return 0;
 }
 
-int inc(int counter){
+void f(void){
 	
-	counter++;
-	return counter;
-	
+	for(i=0;i<10;i++)
+	 printf("#");
 }
