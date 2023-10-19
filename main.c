@@ -5,7 +5,7 @@
 
 
 
-int all_files;
+static int all_files;
 
 extern void sub();
 
